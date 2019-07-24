@@ -48,5 +48,14 @@ git push --all origin
 ### List all the branches in your repo, and also tell you what branch you're currently in:
 git branch
 
-### check Conflict Status in git 
+### check Conflict Status in git  and Search
 git grep '<<<<<<< HEAD'
+ 
+### CommitId is the leading characters of the changeset ID, up to 10, but must be unique. Get the ID using:
+
+### To merge a different branch into your active branch:
+git loggit merge <branchname>
+ 
+### Fetch and merge changes on the remote server to your working directory:
+git pull
+
