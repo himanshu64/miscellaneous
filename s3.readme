@@ -1,0 +1,13 @@
+```php
+$file_path = 'Your file path';
+            if (!empty(check file variable)) {
+
+                $s3 = Storage::disk('s3');
+                if(Storage::disk('s3')->exists($file_path.'/'.$a)) {//check if file is exist or not
+
+                    $profile_image_path = Storage::disk('s3')->url($file_path.'/'.$a);//gather url
+
+                }
+
+            }
+```
